@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Painel de acompanhamento do NASA CME Estudos">
+    <title>NASA CME Estudos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href=".">NASA CME <span>ESTUDOS</span></a>
+      <div class="mode-pill"><span class="mode-dot"></span>LEARNING MODE</div>
+    </header>
+
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">AMBIENTE DE ENGENHARIA DE SOFTWARE</p>
+          <h1>Aprenda o pipeline.<br><em>Defenda o projeto.</em></h1>
+          <p class="hero-copy">Um laboratório guiado pelo NASA CME para praticar APIs, dados,
+            testes, segurança, automação e arquitetura. O visual ajuda você a acompanhar o
+            caminho; a implementação continua sendo sua quando estiver em modo de aprendizagem.</p>
+        </div>
+        <div class="hero-orbit" aria-hidden="true"><span>NASA</span><b>CME</b></div>
+      </section>
+
+      <section class="stats" aria-label="Resumo do ambiente">
+        <article class="stat-card"><span class="stat-label">TAREFA ATUAL</span><strong id="current-task">CME-LEARN-001</strong><small>reconstruir o fluxo</small></article>
+        <article class="stat-card"><span class="stat-label">FASES</span><strong>06</strong><small>do dado à apresentação</small></article>
+        <article class="stat-card"><span class="stat-label">COMPETÊNCIAS</span><strong>10</strong><small>avaliadas por evidências</small></article>
+        <article class="stat-card stat-card--accent"><span class="stat-label">PROGRESSO</span><strong>Não avaliado</strong><small>sem inventar domínio</small></article>
+      </section>
+
+      <section class="grid-layout">
+        <div class="panel panel--wide">
+          <div class="panel-heading"><div><p class="eyebrow">TRILHA</p><h2>Da API à banca</h2></div><span class="panel-count">06 FASES</span></div>
+          <div id="roadmap" class="roadmap"></div>
+        </div>
+
+        <aside class="panel rules-panel">
+          <p class="eyebrow">REGRAS DO MENTOR</p>
+          <h2>Você tenta primeiro.</h2>
+          <ul>
+            <li>Hipótese antes da dica.</li>
+            <li>Uma pergunta por vez.</li>
+            <li>Teste antes de concluir.</li>
+            <li>Evidência antes de marcar domínio.</li>
+          </ul>
+          <div class="mode-box"><span>Modo atual</span><strong>LEARNING MODE</strong><small>Peça “ENGINEERING MODE” quando quiser implementação direta.</small></div>
+        </aside>
+
+        <div class="panel panel--wide checklist-panel">
+          <div class="panel-heading"><div><p class="eyebrow">PRONTIDÃO</p><h2>Critérios de estudo</h2></div><span class="panel-count">BASE CONFIGURADA</span></div>
+          <div id="checklist" class="checklist"></div>
+        </div>
+
+        <aside class="panel commands-panel">
+          <p class="eyebrow">ATALHOS</p>
+          <h2>Workflows</h2>
+          <div class="command-list"><code>/learn</code><code>/read</code><code>/hint</code><code>/debug</code><code>/test</code><code>/next</code><code>/challenge</code><code>/assessment</code></div>
+          <p class="muted">No Codex ou Copilot, use o nome do workflow na mensagem se slash commands não estiverem disponíveis.</p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">NASA CME Estudos <span>·</span> aprendizado baseado em evidências <span>·</span> <a href="docs/learning/ROADMAP.md">ver roadmap</a></footer>
+    <script type="module" src="js/dashboard.js"></script>
+  </body>
+</html>

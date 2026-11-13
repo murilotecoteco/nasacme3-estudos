@@ -126,4 +126,4 @@ Se o diretório ainda não tiver Git inicializado, execute:
 bash scripts/init_git.sh
 ```
 
-O projeto original continua intacto em `/home/murilo/PROJETOS/NASACME3`.
+O projeto original continua separado e preservado fora deste repositório.

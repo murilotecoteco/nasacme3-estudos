@@ -1,0 +1,27 @@
+[
+  {
+    "activityID": "2026-01-01T10:00:00-CME-001",
+    "startTime": "2026-01-01T10:00Z",
+    "sourceLocation": "S10E05",
+    "note": "fixture didático",
+    "instruments": [{"displayName": "LASCO"}],
+    "cmeAnalyses": [{"isMostAccurate": true, "speed": 850, "type": "S", "latitude": 10, "longitude": 5, "halfAngle": 25}],
+    "linkedEvents": [],
+    "link": "https://example.com/cme-001"
+  },
+  {
+    "activityID": "2026-01-02T12:00:00-CME-002",
+    "startTime": "2026-01-02T12:00Z",
+    "sourceLocation": "N40W80",
+    "instruments": [{"displayName": "STEREO"}],
+    "cmeAnalyses": [{"isMostAccurate": true, "speed": 1200, "type": "C", "latitude": 40, "longitude": -80, "halfAngle": 40}],
+    "linkedEvents": [{"activityID": "FLR-002"}]
+  },
+  {
+    "activityID": "2026-01-01T10:00:00-CME-001",
+    "startTime": "2026-01-01T10:00Z",
+    "sourceLocation": "S10E05",
+    "cmeAnalyses": [],
+    "linkedEvents": []
+  }
+]

@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[project]
+name = "nasacme3-estudos"
+version = "0.1.0"
+description = "Ambiente de aprendizado de Engenharia de Software baseado no NASA CME"
+requires-python = ">=3.11"
